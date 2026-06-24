@@ -14,7 +14,7 @@ load_dotenv()
 
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_ID = int(os.getenv("ADMIN_ID"))
+ADMIN_ID = int(os.getenv("ADMIN_VK_ID"))
 
 RCON_PASSWORD = os.getenv("RCON_PASSWORD")
 RCON_HOST = os.getenv("RCON_HOST")
