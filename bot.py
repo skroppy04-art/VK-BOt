@@ -19,7 +19,7 @@ ADMIN_ID = int(os.getenv("ADMIN_VK_ID"))
 RCON_PASSWORD = os.getenv("RCON_PASSWORD")
 RCON_HOST = os.getenv("RCON_HOST")
 RCON_PORT = int(os.getenv("RCON_PORT"))
-bot = Bot(VK_TOKEN)
+bot = Bot(BOT_TOKEN)
 
 users = {}
 pending = {}
