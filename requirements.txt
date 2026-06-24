@@ -1,4 +1,4 @@
-vkbottle==4.9.0
+vkbottle
 aiohttp
 python-dotenv
 mcrcon
